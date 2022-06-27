@@ -1,0 +1,10 @@
+.best{
+    width:100%;
+    margin: 4rem 0;
+    text-align: center;
+  }
+  .best > div{
+    display: flex;
+    justify-content: center;
+  }
+  

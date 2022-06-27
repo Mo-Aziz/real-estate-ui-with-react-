@@ -1,5 +1,4 @@
 /* adding Raleway google font */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
@@ -28,11 +27,6 @@ a {
   color: #333;
 }
 
-body {
-  margin: 0;
-  font-family:"Raleway", "Roboto", "Oxygen", "Ubuntu", "cantarell",
-    -apple-system;
-}
 
 .container {
   max-width: 1240px;
