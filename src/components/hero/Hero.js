@@ -15,11 +15,10 @@ const Hero = () => {
           <div>
             <input type="text" placeholder="Enter Keywords..." />
           </div>
-
+{/* radio buttons section */}
           <div className="radio">
             <input type="radio" checked />
             <label>Buy </label>
-
             <input type="radio" />
             <label>Rent </label>
             <button type="submit">

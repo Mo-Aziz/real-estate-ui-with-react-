@@ -3,10 +3,12 @@
     margin: 4rem 0;
     text-align: center;
   }
+
   .best > div{
     display: flex;
     justify-content: center;
   }
+
   .best  > div p{
     margin: 1rem 2rem;
     font-size: 2rem;
@@ -18,13 +20,15 @@
   
 .best .container{
 display:grid;
-grid-template-columns: repeat(3,1fr);
-grid-gap: 1.2rem;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: .5rem;
 padding: 1rem;
+margin: auto;
 }
 
 .best img{
-width:100%
+width: 100%;
+ 
 }
 
 @media screen and (max-width:940px){
@@ -32,15 +36,21 @@ width:100%
     margin: 1rem 0;
   }
 
-  .best >div p{
+  .best > div p{
     margin:1rem;
     font-size: 1rem;
   }
   .best .container{
     grid-template-columns: 1fr;
     grid-gap: .5rem;
+    
+  }
+  .best .container img{
+    width: 400px;
+    margin: auto;
   }
 }
+
 @media screen and (max-width:478px){
   .best > div p{
     margin: 1rem .5rem;
